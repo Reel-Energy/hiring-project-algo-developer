@@ -9,6 +9,8 @@ The aims of the exercise are to assess:
 - your general level of familiarity and skill with python
 - your ability to mock a trading algorithm
 
+At the interview, you will be asked to go through the code to explain how it works and elaborate on the choices you made along the way.
+
 The algorithm monitors the spread across a number of products and performs trades on pairs when the spread (price difference) between the products in the pair is larger than a given threshold. 
 The different products may represent different hours of the same day, or the price of power in the same hour but across different price regions.
 You can read some information about power markets [here](https://www.epexspot.com/en/basicspowermarket) and see some real-world market results [here](https://data.nordpoolgroup.com/auction/day-ahead/prices). Note: your simulated algorithm should be simplified, so do not worry about trying to replicate how markets actually function.
